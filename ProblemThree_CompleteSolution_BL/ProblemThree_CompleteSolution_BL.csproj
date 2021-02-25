@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProblemOne_IncorrectSolution\ProblemOne_LogicError.csproj">
+      <Project>{1ee64df5-7fc7-49b5-ae07-3ef349cd69d3}</Project>
+      <Name>ProblemOne_LogicError</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
